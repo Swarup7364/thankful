@@ -1,0 +1,53 @@
+body {
+ 
+  font-family: 'Arial', sans-serif;
+  background: #a8ff78;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.card {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #FFEFBA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+ 
+}
+
+.thank-you {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+  font-family: 'Brush Script MT', cursive;
+
+}
+
+.message {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+.signature {
+  text-align: right;
+  font-weight: bold;
+  animation: fadeInUp 1.4s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
